@@ -1,0 +1,43 @@
+# Ignore archive files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.rar
+*.7z
+
+# Ignore backup files
+*.bak
+*.tmp
+*.temp
+*~
+*.old
+*.orig
+
+# Ignore other generated files
+*.log
+*.swp
+*.swo
+
+# Node modules and vendor directories
+node_modules/
+vendor/
+
+# WordPress core files
+wp-admin/
+wp-includes/
+
+# WordPress dynamically generated directories
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+
+# Sensitive files
+wp-config.php
+
+# OS and IDE generated files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
